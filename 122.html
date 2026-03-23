@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <title>Neon Login</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+<div class="container">
+    <h1 class="title">🎮 O‘yinlar Portaliga Xush Kelibsiz</h1>
+
+    <div class="login-box">
+        <img src="boks.jpg" class="avatar">
+
+        <input type="text" id="user" placeholder="Login">
+        <input type="password" id="pass" placeholder="Parol">
+
+        <button onclick="login()">Kirish</button>
+
+        <p id="message"></p>
+    </div>
+</div>
+
+<script>
+function login() {
+    let u = document.getElementById("user").value;
+    let p = document.getElementById("pass").value;
+
+    if(u === "admin" && p === "1234"){
+        document.getElementById("message").innerHTML = "✓ Kirish muvaffaqiyatli!";
+        document.getElementById("message").style.color = "#00ff88";
+
+        setTimeout(() => {
+            window.location.href = "oyinlar.html";
+        }, 1000);
+
+    } else {
+        document.getElementById("message").innerHTML = "✗ Login yoki parol xato!";
+        document.getElementById("message").style.color = "red";
+    }
+}
+</script>
+
+</body>
+</html>
