@@ -1,0 +1,48 @@
+body {
+    background-color: blueviolet;
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+.asos {
+    border: 2px solid rgb(255, 21, 21);
+    background-image: url(https://unblast.com/wp-content/uploads/2021/01/Space-Background-Images.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.div1 {
+    border: 2px solid rgb(169, 216, 38);
+    padding: 15px 25px;
+    text-align: center;
+    background-image: url(https://images.wallpaperscraft.ru/image/single/bmw_avtomobil_bamper_191131_300x168.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.div2 {
+    border: 2px solid rgb(169, 216, 38);
+    padding: 65px 25px;
+    text-align: center;
+    margin: 30px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREqRp5pzb59rEoOn3Z53TmEPbqzHvqf3wj5g&s);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.div3 {
+    border: 2px solid rgb(169, 216, 38);
+    padding: 65px 25px;
+    text-align: center;
+    margin: 30px;
+    background-image: url(https://img.freepik.com/free-photo/fuji-mountain-with-milky-way-night_335224-104.jpg?semt=ais_user_personalization&w=740&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.div4 {
+    border: 2px solid rgb(169, 216, 38);
+    padding: 65px 25px;
+    text-align: center;
+    margin: 30px;
+    background-image: url(https://free-3dtextureshd.com/wp-content/uploads/2024/12/318.jpg.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
